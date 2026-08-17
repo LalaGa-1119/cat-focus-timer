@@ -1,34 +1,34 @@
-# 猫猫专注屋
+# Cat Focus Timer
 
-一款轻量、可爱的本地番茄钟。白猫安静陪你专注，也提醒你按时休息。
+A lightweight, cozy Pomodoro timer with a white cat that quietly keeps you company while you work and reminds you to take a break.
 
-## 功能
+## Features
 
-- 25 分钟专注、5 分钟短休、15 分钟长休
-- 今日待办的添加、完成、删除与当前任务选择
-- 今日专注分钟数、番茄数和完成任务数统计
-- 自动保存在浏览器本地，无需登录、不会上传任务内容
-- 响应式布局与减少动态效果的无障碍支持
+- 25-minute focus sessions, 5-minute short breaks, and 15-minute long breaks
+- Add, complete, delete, and select today's tasks
+- Track focused minutes, completed Pomodoros, and finished tasks
+- Automatic local browser storage — no account and no data uploads
+- Responsive layout with reduced-motion accessibility support
 
-## 本地运行
+## Run Locally
 
 ```bash
 npm install
 npm run dev
 ```
 
-打开 `http://localhost:3000`。
+Then open `http://localhost:3000`.
 
-## 验证
+## Validation
 
 ```bash
 npm run lint
 npm test
 ```
 
-## 技术栈
+## Tech Stack
 
-React 19、TypeScript、vinext、Cloudflare Workers。
+React 19, TypeScript, vinext, and Cloudflare Workers.
 
 ## License
 
